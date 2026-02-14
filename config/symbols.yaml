@@ -1,0 +1,350 @@
+# Watchlist Configuration
+# Stocks to monitor for trading opportunities
+
+# Primary watchlist - Mega caps, highest liquidity
+primary:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - META
+  - NVDA
+  - TSLA
+  - AMD
+  - NFLX
+  - SPY
+  - QQQ
+
+# Tech stocks - High volatility, good for scalping
+tech:
+  - INTC
+  - CRM
+  - ORCL
+  - ADBE
+  - MU       # Micron - volatile semiconductor
+  - AVGO     # Broadcom
+  - QCOM     # Qualcomm
+  - AMAT     # Applied Materials
+  - LRCX     # Lam Research
+  - KLAC     # KLA Corp
+  - MRVL     # Marvell
+  - ARM      # ARM Holdings - volatile
+  - SMCI     # Super Micro - very volatile
+  - PLTR     # Palantir - high retail interest
+  - SNOW     # Snowflake
+  - DDOG     # Datadog
+  - NET      # Cloudflare
+  - CRWD     # CrowdStrike
+  - ZS       # Zscaler
+  - PANW     # Palo Alto Networks
+  - NOW      # ServiceNow
+  - WDAY     # Workday
+  - TEAM     # Atlassian
+  - OKTA     # Okta
+  - MDB      # MongoDB
+  - ESTC     # Elastic
+  - CFLT     # Confluent
+  - PATH     # UiPath
+  - S        # SentinelOne
+  - GTLB     # GitLab
+  - DOCN     # DigitalOcean
+  - IOT      # Samsara
+  - AI       # C3.ai
+  - BBAI     # BigBear.ai
+  - SOUN     # SoundHound AI
+  - UPST     # Upstart
+
+# Semiconductors - Very volatile sector
+semis:
+  - "ON"     # ON Semiconductor
+  - SWKS     # Skyworks
+  - MPWR     # Monolithic Power
+  - TXN      # Texas Instruments
+  - ADI      # Analog Devices
+  - NXPI     # NXP Semi
+  - MCHP     # Microchip
+  - STM      # STMicroelectronics
+  - ASML     # ASML
+  - TSM      # Taiwan Semi
+  - WOLF     # Wolfspeed
+  - ACLS     # Axcelis
+  - AEHR     # Aehr Test
+  - CRUS     # Cirrus Logic
+  - POWI     # Power Integrations
+
+# Fintech & Crypto-adjacent - High volatility
+fintech:
+  - PYPL
+  - SQ
+  - COIN
+  - SHOP
+  - MSTR     # MicroStrategy - bitcoin proxy, very volatile
+  - HOOD     # Robinhood
+  - SOFI     # SoFi
+  - AFRM     # Affirm
+  - NU       # Nu Holdings
+  - UPWK     # Upwork
+  - FOUR     # Shift4
+  - BILL     # Bill.com
+  - HUBS     # HubSpot
+  - TOST     # Toast
+  - DOCS     # Doximity
+  - GLBE     # Global-E
+  - RELY     # Remitly
+  - DLO      # DLocal
+  - MARA     # Marathon Digital - crypto mining
+  - RIOT     # Riot Platforms - crypto mining
+  - CLSK     # CleanSpark - crypto mining
+  - HUT      # Hut 8 - crypto mining
+  - BITF     # Bitfarms - crypto mining
+
+# Consumer & Growth
+consumer:
+  - UBER
+  - ABNB
+  - DASH     # DoorDash
+  - RBLX     # Roblox
+  - SPOT     # Spotify
+  - ROKU     # Roku
+  - TTD      # The Trade Desk
+  - PINS     # Pinterest
+  - SNAP     # Snap Inc
+  - LYFT     # Lyft
+  - DUOL     # Duolingo
+  - CHWY     # Chewy
+  - ETSY     # Etsy
+  - W        # Wayfair
+  - PTON     # Peloton
+  - BROS     # Dutch Bros
+  - CAVA     # Cava
+  - SHAK     # Shake Shack
+  - CMG      # Chipotle
+  - SBUX     # Starbucks
+  - MCD      # McDonald's
+  - DPZ      # Domino's
+  - WING     # Wingstop
+  - DRI      # Darden
+
+# Retail - High volume, volatile on earnings
+retail:
+  - WMT      # Walmart
+  - TGT      # Target
+  - COST     # Costco
+  - HD       # Home Depot
+  - LOW      # Lowe's
+  - TJX      # TJ Maxx
+  - ROST     # Ross Stores
+  - DG       # Dollar General
+  - DLTR     # Dollar Tree
+  - ULTA     # Ulta Beauty
+  - LULU     # Lululemon
+  - NKE      # Nike
+  - GPS      # Gap
+  - ANF      # Abercrombie
+  - AEO      # American Eagle
+  - VSCO     # Victoria's Secret
+  - BBY      # Best Buy
+
+# Healthcare & Biotech - Can be volatile
+healthcare:
+  - MRNA     # Moderna
+  - BNTX     # BioNTech
+  - REGN     # Regeneron
+  - VRTX     # Vertex
+  - ISRG     # Intuitive Surgical
+  - DXCM     # Dexcom
+  - ILMN     # Illumina
+  - EXAS     # Exact Sciences
+  - NVAX     # Novavax - very volatile
+  - SGEN     # Seagen
+  - BIIB     # Biogen
+  - GILD     # Gilead
+  - ABBV     # AbbVie
+  - BMY      # Bristol-Myers
+  - MRK      # Merck
+  - PFE      # Pfizer
+  - JNJ      # Johnson & Johnson
+  - LLY      # Eli Lilly
+  - NVO      # Novo Nordisk
+  - UNH      # UnitedHealth
+  - HUM      # Humana
+  - CVS      # CVS Health
+  - CI       # Cigna
+  - ELV      # Elevance
+
+# Energy & Industrials - Good for momentum
+energy:
+  - XOM      # Exxon
+  - CVX      # Chevron
+  - OXY      # Occidental
+  - SLB      # Schlumberger
+  - HAL      # Halliburton
+  - COP      # ConocoPhillips
+  - EOG      # EOG Resources
+  - DVN      # Devon Energy
+  - PXD      # Pioneer Natural
+  - MPC      # Marathon Petroleum
+  - VLO      # Valero
+  - PSX      # Phillips 66
+  - FANG     # Diamondback Energy
+  - APA      # APA Corp
+  - MRO      # Marathon Oil
+
+# Autos & EV - Very volatile
+autos:
+  - F        # Ford
+  - GM       # General Motors
+  - RIVN     # Rivian
+  - LCID     # Lucid
+  - NIO      # NIO
+  - XPEV     # XPeng
+  - LI       # Li Auto
+  - PLUG     # Plug Power
+  - FCEL     # FuelCell
+  - BLNK     # Blink Charging
+  - CHPT     # ChargePoint
+  - QS       # QuantumScape
+  - LAZR     # Luminar
+  - MOBILEYE # Mobileye
+  - APTV     # Aptiv
+
+# Aerospace & Defense
+defense:
+  - BA       # Boeing
+  - LMT      # Lockheed Martin
+  - RTX      # Raytheon
+  - NOC      # Northrop Grumman
+  - GD       # General Dynamics
+  - TDG      # TransDigm
+  - HWM      # Howmet
+  - AXON     # Axon Enterprise
+  - PLTR     # Palantir (defense contracts)
+  - RKLB     # Rocket Lab
+  - ASTS     # AST SpaceMobile
+  - LUNR     # Intuitive Machines
+  - RDW      # Redwire
+
+# Financials
+financials:
+  - JPM      # JPMorgan
+  - BAC      # Bank of America
+  - GS       # Goldman Sachs
+  - MS       # Morgan Stanley
+  - C        # Citigroup
+  - WFC      # Wells Fargo
+  - SCHW     # Schwab
+  - BLK      # BlackRock
+  - ICE      # Intercontinental Exchange
+  - CME      # CME Group
+  - SPGI     # S&P Global
+  - MCO      # Moody's
+  - V        # Visa
+  - MA       # Mastercard
+  - AXP      # American Express
+  - COF      # Capital One
+  - DFS      # Discover
+  - ALLY     # Ally Financial
+
+# REITs - Dividend plays with movement
+reits:
+  - AMT      # American Tower
+  - PLD      # Prologis
+  - EQIX     # Equinix
+  - DLR      # Digital Realty
+  - O        # Realty Income
+  - SPG      # Simon Property
+  - PSA      # Public Storage
+  - AVB      # AvalonBay
+  - EQR      # Equity Residential
+  - VTR      # Ventas
+  - WELL     # Welltower
+  - ARE      # Alexandria RE
+
+# Meme & Retail Favorites - High volatility
+meme:
+  - GME      # GameStop
+  - AMC      # AMC Entertainment
+  - BBBY     # Bed Bath & Beyond
+  - BB       # BlackBerry
+  - NOK      # Nokia
+  - CLOV     # Clover Health
+  - WISH     # ContextLogic
+  - SOFI     # SoFi (also fintech)
+  - TLRY     # Tilray
+  - CGC      # Canopy Growth
+  - SNDL     # Sundial
+  - ACB      # Aurora Cannabis
+
+# Chinese ADRs - Very volatile
+china:
+  - BABA     # Alibaba
+  - JD       # JD.com
+  - PDD      # Pinduoduo
+  - BIDU     # Baidu
+  - NTES     # NetEase
+  - TME      # Tencent Music
+  - BILI     # Bilibili
+  - FUTU     # Futu Holdings
+  - TIGR     # UP Fintech
+  - TAL      # TAL Education
+  - EDU      # New Oriental
+
+# ETFs for trading
+etfs:
+  - IWM      # Russell 2000
+  - DIA      # Dow Jones
+  - ARKK     # ARK Innovation - volatile
+  - SOXL     # 3x Semiconductor - very volatile
+  - TQQQ     # 3x Nasdaq - very volatile
+  - UVXY     # VIX - volatility plays
+  - SQQQ     # 3x Inverse Nasdaq
+  - SPXU     # 3x Inverse S&P
+  - TNA      # 3x Small Cap Bull
+  - TZA      # 3x Small Cap Bear
+  - LABU     # 3x Biotech Bull
+  - LABD     # 3x Biotech Bear
+  - NUGT     # 2x Gold Miners Bull
+  - DUST     # 2x Gold Miners Bear
+  - BOIL     # 2x Natural Gas
+  - KOLD     # 2x Inverse Natural Gas
+  - FAS      # 3x Financial Bull
+  - FAZ      # 3x Financial Bear
+  - TECL     # 3x Tech Bull
+  - TECS     # 3x Tech Bear
+  - UPRO     # 3x S&P Bull
+  - SPXS     # 3x S&P Bear
+  - JNUG     # 2x Junior Gold Miners
+  - GDX      # Gold Miners ETF
+  - SLV      # Silver ETF
+  - USO      # Oil ETF
+  - XBI      # Biotech ETF
+  - SMH      # Semiconductor ETF
+  - KWEB     # China Internet ETF
+  - EEM      # Emerging Markets ETF
+  - EWZ      # Brazil ETF
+  - FXI      # China Large Cap ETF
+
+# Sector ETFs for correlation checks
+sector_etfs:
+  - XLK  # Technology
+  - XLF  # Financials
+  - XLE  # Energy
+  - XLV  # Healthcare
+  - XLI  # Industrials
+
+# Screening criteria for dynamic watchlist
+screening:
+  enabled: true
+  min_volume: 1000000  # Minimum average daily volume
+  min_price: 10
+  max_price: 200
+  min_atr_pct: 0.005  # Minimum volatility
+  max_spread_pct: 0.001  # Maximum bid-ask spread
+  exclude_sectors: []  # Sectors to exclude
+
+# Pre-market gap scanner settings
+gap_scanner:
+  enabled: true
+  min_gap_pct: 0.02  # Minimum 2% gap
+  max_gap_pct: 0.10  # Maximum 10% gap (avoid too volatile)
+  min_premarket_volume: 50000

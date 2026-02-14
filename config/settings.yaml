@@ -1,0 +1,77 @@
+broker:
+  api_key_env: ALPACA_API_KEY
+  api_secret_env: ALPACA_API_SECRET
+  base_url: https://paper-api.alpaca.markets
+  data_url: https://data.alpaca.markets
+  name: alpaca
+  paper_trading: true
+data:
+  bar_timeframe: 1Min
+  max_bars_history: 500
+  quote_feed: true
+  trade_feed: true
+database:
+  enabled: false
+  pool_size: 5
+  url_env: DATABASE_URL
+logging:
+  backup_count: 5
+  file: logs/trading.log
+  level: INFO
+  max_size_mb: 100
+market_hours:
+  after_hours: false
+  early_close_days: []
+  end: '16:00'
+  pre_market: false
+  start: 09:30
+  timezone: America/New_York
+notifications:
+  daily_summary: true
+  enabled: false
+  notify_on_error: true
+  notify_on_trade: true
+  slack_webhook_env: SLACK_WEBHOOK_URL
+redis:
+  enabled: false
+  url_env: REDIS_URL
+risk:
+  cooldown_after_loss: 60
+  max_correlation: 0.7
+  max_daily_trades: 50
+  stop_loss_pct: 0.01
+  take_profit_pct: 0.005
+  trailing_stop_pct: 0.003
+strategies:
+  mean_reversion:
+    bb_period: 20
+    bb_std: 2.0
+    enabled: true
+    rsi_exit: 50
+    rsi_oversold: 25
+    rsi_period: 14
+    sma_period: 20
+    weight: 0.3
+  momentum:
+    enabled: true
+    lookback_periods: 5
+    min_atr_pct: 0.005
+    take_profit_pct: 0.005
+    trailing_stop_pct: 0.003
+    volume_multiplier: 1.5
+    weight: 0.4
+  vwap:
+    active_hours_only: true
+    bounce_threshold: 0.001
+    enabled: true
+    stop_loss_pct: 0.002
+    take_profit_pct: 0.004
+    volume_confirm: 1.2
+    weight: 0.3
+trading:
+  capital: 30000
+  daily_loss_limit_pct: 0.1
+  max_position_pct: 0.9
+  max_positions: 10
+  max_price: 1000.0
+  min_price: 10.0

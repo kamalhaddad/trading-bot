@@ -1,0 +1,38 @@
+# Broker API
+alpaca-py>=0.21.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Technical Analysis
+pandas-ta>=0.3.14b
+
+# Async
+aiohttp>=3.9.0
+websockets>=12.0
+
+# Database
+asyncpg>=0.29.0
+redis>=5.0.0
+sqlalchemy>=2.0.0
+
+# Scheduling
+APScheduler>=3.10.0
+
+# Configuration
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Logging and Monitoring
+structlog>=24.0.0
+
+# Notifications
+slack-sdk>=3.26.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Type hints
+typing-extensions>=4.9.0

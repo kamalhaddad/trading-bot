@@ -22,10 +22,10 @@ logging:
 market_hours:
   after_hours: false
   early_close_days: []
-  end: '16:00'
+  end: '13:00'
   pre_market: false
-  start: 09:30
-  timezone: America/New_York
+  start: '06:30'
+  timezone: America/Los_Angeles
 notifications:
   daily_summary: true
   enabled: false
